@@ -9,6 +9,8 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'jquery'
+gem 'stripe'
+
 # Use sqlite3 as the database for Active Record
 
 # Use Puma as the app server
@@ -36,6 +38,8 @@ group :development, :test do
   gem 'sqlite3', '~> 1.4'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'dotenv'
+  gem 'pry'
 end
 
 group :development do
